@@ -12,6 +12,9 @@ Course Script
 ML - Support material
 >>	https://www.safaribooksonline.com/library/view/just-enough-math/9781491904077/
 
+Example-0
+---------
+sc.parallelize(range(1000)).count()
 
 Example-1
 ---------

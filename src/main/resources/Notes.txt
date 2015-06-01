@@ -1,0 +1,6 @@
+Course Name : 	berkeleyx-cs100-1x
+
+Python refresher
+http://www.mypythonquiz.com/
+http://ai.berkeley.edu/tutorial.html#PythonBasics
+
