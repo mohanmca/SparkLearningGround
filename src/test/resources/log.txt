@@ -1,0 +1,37 @@
+14/04/18 15:23:53 INFO slf4j.Slf4jLogger: Slf4jLogger started
+14/04/18 15:23:53 INFO Remoting: Starting remoting
+14/04/18 15:23:53 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://spark@192.168.1.82:49862]
+14/04/18 15:23:53 INFO Remoting: Remoting now listens on addresses: [akka.tcp://spark@192.168.1.82:49862]
+14/04/18 15:23:53 INFO spark.SparkEnv: Registering BlockManagerMaster
+14/04/18 15:23:53 INFO storage.DiskBlockManager: Created local directory at /var/folders/bl/zrtbg3cd57lfsgzzllhnxxjc0000gn/T/spark-local-20140418152353-0860
+14/04/18 15:23:53 INFO storage.MemoryStore: MemoryStore started with capacity 303.4 MB.
+14/04/18 15:23:53 INFO network.ConnectionManager: Bound socket to port 49863 with id = ConnectionManagerId(192.168.1.82,49863)
+14/04/18 15:23:53 INFO storage.BlockManagerMaster: Trying to register BlockManager
+14/04/18 15:23:53 INFO storage.BlockManagerMasterActor$BlockManagerInfo: Registering block manager 192.168.1.82:49863 with 303.4 MB RAM
+14/04/18 15:23:53 INFO storage.BlockManagerMaster: Registered BlockManager
+14/04/18 15:23:53 INFO spark.HttpServer: Starting HTTP Server
+ERROR handler.ContextHandler: started o.e.j.s.h.ContextHandler{/storage/rdd,null}
+14/04/18 15:23:53 INFO server.Server: jetty-7.x.y-SNAPSHOT
+14/04/18 15:23:53 INFO server.AbstractConnector: Started SocketConnector@0.0.0.0:49864
+14/04/18 15:23:53 INFO broadcast.HttpBroadcast: Broadcast server started at http://192.168.1.82:49864
+14/04/18 15:23:53 INFO spark.SparkEnv: Registering MapOutputTracker
+14/04/18 15:23:53 INFO spark.HttpFileServer: HTTP File server directory is /var/folders/bl/zrtbg3cd57lfsgzzllhnxxjc0000gn/T/spark-bd1b4c8e-1e28-4580-872c-c1375daea272
+ERROR handler.ContextHandler: started o.e.j.s.h.ContextHandler{/storage/rdd,null}
+14/04/18 15:23:53 INFO spark.HttpServer: Starting HTTP Server
+14/04/18 15:23:53 INFO server.Server: jetty-7.x.y-SNAPSHOT
+14/04/18 15:23:53 INFO server.AbstractConnector: Started SocketConnector@0.0.0.0:49865
+14/04/18 15:23:53 INFO server.Server: jetty-7.x.y-SNAPSHOT
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/storage/rdd,null}
+ERROR handler.ContextHandler: started o.e.j.s.h.ContextHandler{/storage/rdd,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/storage,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/stages/stage,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/stages/pool,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/stages,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/environment,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/executors,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/metrics/json,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/static,null}
+14/04/18 15:23:53 INFO handler.ContextHandler: started o.e.j.s.h.ContextHandler{/,null}
+14/04/18 15:23:53 INFO server.AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+14/04/18 15:23:53 INFO ui.SparkUI: Started Spark Web UI at http://192.168.1.82:4040
+14/04/18 15:23:53 INFO executor.Executor: Using REPL class URI: http://192.168.1.82:49861

@@ -16,10 +16,13 @@ ML - Support material
 Example-1
 ---------
 val sc = new SparkContext()
-val lines = sc.textFile("logfile.txt")
+val lines = sc.textFile("log.txt")
 val errors = lines.filter(_.startsWith("ERROR"))
-val messages = errors.map(_.split("\t")(2))
+val messages = errors.map(_.split("\t")).map(r => r(2))
+messages.cache()
 messages.saveAsTextFile("errors.txt") //Kicks of the computation
+//--To know the source
+messages.toDebugString
 
 Example-2 (Machine learning MLib)
 ---------------------------------
