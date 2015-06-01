@@ -4,6 +4,15 @@ http://stanford.edu/~rezab/sparkclass/slides/itas_workshop.pdf
 http://bit.ly/spark-training-2
 unzip to C:\Mohan\apps\spark_course\
 
+Course Script
+*	https://gist.github.com/ceteri/f2c3486062c9610eac1d
+*	https://gist.github.com/ceteri/8ae5b9509a08c08a1132
+*	https://gist.github.com/ceteri/11381941
+
+ML - Support material
+>>	https://www.safaribooksonline.com/library/view/just-enough-math/9781491904077/
+
+
 Example-1
 ---------
 val sc = new SparkContext()
@@ -41,7 +50,5 @@ Spark - Extends programming language with distributed collection data-structure 
 RDD -	Resilient distributed datasets
 	-	User controlled partitioning, and storage
 	-	Automatically rebuild on failure.
-	-	Knows their paritioning function. (Hash partitioning)
-	-	
-
-Lazy - Lazily evaluated
+	-	Knows their partioning function. (Hash partitioning)
+	-	Lazy - Lazily evaluated
