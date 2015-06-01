@@ -4,6 +4,7 @@ import org.scalatest.Matchers
 import collection.mutable.Stack
 import org.scalatest._
 import org.scalatest.junit.JUnitRunner
+import org.junit.runner.RunWith
 
 @RunWith(classOf[JUnitRunner])
 class ExampleSpec extends FlatSpec with Matchers {
