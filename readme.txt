@@ -55,6 +55,8 @@ Notes
 Spark - Extends programming language with distributed collection data-structure named RDD.
 RDD -	Resilient distributed datasets
 	-	User controlled partitioning, and storage
-	-	Automatically rebuild on failure.
+	-	Partitioned collection of objects spread across clusters, stored on Memory, or disk.
+	-	Build using diverse set of parallel transformations (filter, map, join), and actions (count, collect, save, cached) 
 	-	Knows their partioning function. (Hash partitioning)
+	-	Automatically rebuild on failure.
 	-	Lazy - Lazily evaluated
