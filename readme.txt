@@ -60,3 +60,13 @@ RDD -	Resilient distributed datasets
 	-	Knows their partioning function. (Hash partitioning)
 	-	Automatically rebuild on failure.
 	-	Lazy - Lazily evaluated
+
+Common RDD Operations
+
+map(), mapPartitions(), mapPartitionsWithIndex(), filter(), flatMap(), reduceByKey(), groupByKey()
+first(), take(), takeSample(), takeOrdered(), collect(), count(), countByValue(), reduce(), top()
+cache(), unpersist(), id(), setName()
+
+https://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.RDD
+https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.RDD
+https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.PairRDDFunctions
