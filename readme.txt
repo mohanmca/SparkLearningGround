@@ -70,3 +70,8 @@ cache(), unpersist(), id(), setName()
 https://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.RDD
 https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.RDD
 https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.PairRDDFunctions
+
+
+Local URL
+http://localhost:8080/	= Spark UI
+http://localhost:4040/executors/	= Spark UI
