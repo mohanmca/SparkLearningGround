@@ -30,6 +30,9 @@ Debug
  .map(lambda y: y - 1)
  .filter(lambda x: x < 10)
  .collect())
+*	Write a quick TestCase.
+	from test_helper import Test
+	Test.assertEquals(makePlural('rat'), 'rats', 'incorrect result: makePlural does not add an s') 
  
 
 
@@ -51,3 +54,5 @@ http://pgbovine.net/ipython-notebook-first-impressions.htm
  
 sudo apt-get install python-pip ipython ipython-notebook
 sudo pip install --upgrade ipython tornado
+
+re.sub(r"['_,!\-\"\\\/}{?\.]",'',text)
