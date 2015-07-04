@@ -1,0 +1,32 @@
+findBiggestRecord(amazonRecToToken)
+findBiggestRecord(googleRecToToken)
+
+quickbrownbox = ['quick', 'brown', 'fox', 'jumps', 'lazy', 'dog']
+Let N be the total number of documents in U
+Find n(t), the number of documents in U that contain t
+Then IDF(t) = N/n(t).
+
+Note that n(t)/N is the frequency of t in U, and N/n(t) is the inverse frequency.
+if document d contains 100 tokens and token t appears in d 5 times, then the TF weight of t in d is 5/100 = 1/20.
+ 
+Sometimes token weights depend on the document the token belongs to, that is, the same token may have a different weight when it's found in different documents. We call these weights local weights. TF is an example of a local weight, because it depends on the length of the source.
+
+On the other hand, some token weights only depend on the token, and are the same everywhere that token is found. We call these weights global, and IDF is one such weight.
+
+quickbrownfox
+tf(tokens):
+idfs(corpus)
+
+for line in googleSmall.take(3):
+    print 'google: %s: %s\n' % (line[0], line[1])
+
+for line in amazonSmall.take(3):
+    print 'amazon: %s: %s\n' % (line[0], line[1])
+
+google: http://www.google.com/base/feeds/snippets/11448761432933644608: spanish vocabulary builder "expand your vocabulary! contains fun lessons that both teach and entertain you'll quickly find yourself mastering new terms. includes games and more!" 
+google: http://www.google.com/base/feeds/snippets/8175198959985911471: topics presents: museums of world "5 cd-rom set. step behind the velvet rope to examine some of the most treasured collections of antiquities art and inventions. includes the following the louvre - virtual visit 25 rooms in full screen interactive video detailed map of the louvre ..." 
+google: http://www.google.com/base/feeds/snippets/18445827127704822533: sierrahome hse hallmark card studio special edition win 98 me 2000 xp "hallmark card studio special edition (win 98 me 2000 xp)" "sierrahome"
+
+amazon: b000jz4hqo: clickart 950 000 - premier image pack (dvd-rom)  "broderbund"
+amazon: b0006zf55o: ca international - arcserve lap/desktop oem 30pk "oem arcserve backup v11.1 win 30u for laptops and desktops" "computer associates"
+amazon: b00004tkvy: noah's ark activity center (jewel case ages 3-8)  "victory multimedia"
